@@ -22,5 +22,53 @@
     "skills": ["ReactJS", "Django", "SQL", "Figma"],
     "demo": "https://www.example.com",
     "source": "https://github.com/Suryavenuneelam/LMS"
+  },
+  {
+    "title": "Arduino based Advanced Touch Sensor",
+    "imageSrc": "projects/ats.png",
+    "description": "Developed a touch sensor using Arduino to detect gestures and multi-finger taps in water.",
+    "skills": ["Arduino", "C++", "Sensor Technology"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/Suryavenuneelam/ArduinoAdvnacedTouchSensor"
+  },
+  {
+    "title": "Malware Detection and Classification",
+    "imageSrc": "projects/mdc.png",
+    "description": "Developed a malware detection and classification framework using CNNs, achieving 98% accuracy for cybersecurity applications.",
+    "skills": ["TensorFlow", "Pandas", "Keras","NumPy", "Scikit-learn", "Matplotlib"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/Suryavenuneelam/malware-classification-detection"
+  },
+  {
+    "title": "Data Analytics Project- Amazon Sales Dashboard",
+    "imageSrc": "projects/dap.png",
+    "description": "Created an interactive Amazon sales dashboard using Microsoft PowerBI, providing insightful data visualizations for enhanced decision-making.",
+    "skills": ["Microsoft PowerBI"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/Suryavenuneelam/my-powerbi-dashboard"
+  },
+  {
+      "title": "Network Traffic Analysis and Anomaly Detection for DDOS attack",
+      "imageSrc": "projects/ddos.png",
+      "description": "Developed a system to generate, filter, rate limit, and analyze network traffic using rule-based and machine learning approaches, achieving high accuracy in traffic classification.",
+      "skills": ["Python", "Scikit-learn", "Matplotlib", "NumPy"],
+      "demo": "https://www.example.com",
+      "source": "https://github.com/Suryavenuneelam/ddos"
+  },
+  {
+    "title": "Predicting Water Potability using R Studio",
+    "imageSrc": "projects/wp.png",
+    "description": "Conducted comprehensive data analysis on water potability dataset using R, performing statistical analysis, visualization, and hypothesis testing.",
+    "skills": ["R", "readxl", "moments"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/Suryavenuneelam/water-potability-analysis"
+  },
+  {
+      "title": "Captcha Recognition",
+      "imageSrc": "projects/cr.png",
+      "description": "Developed a system to generate, filter, rate limit, and analyze network traffic using rule-based and machine learning approaches, achieving high accuracy in traffic classification.",
+      "skills": ["Matlab", "Image Processing Toolbox", "Statistics and Machine Learning Toolbox"],
+      "demo": "https://www.example.com",
+      "source": "https://github.com/Suryavenuneelam/captcha-recognition"
   }
 ]
