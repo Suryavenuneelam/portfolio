@@ -1,0 +1,35 @@
+[
+  {
+    "role": "Full Stack Developer Intern",
+    "organisation": "IdeaEdu",
+    "startDate": "June, 2024",
+    "endDate": "Present",
+    "experiences": [
+      "Developed a Call Management System using MERN stack and Twilio",
+      "Improved post-development services efficiency"
+    ],
+    "imageSrc": "history/ideaedu.png"
+  },
+  {
+    "role": "Hybrid App Developer Intern",
+    "organisation": "Mile Deep Works Pvt Ltd.",
+    "startDate": "Aug, 2023",
+    "endDate": "Sep, 2023",
+    "experiences": [
+      "Developed hybrid mobile apps using Cordova, HTML, CSS, and JavaScript",
+      "Managed project hosting on AWS and published apps to Google Play Store"
+    ],
+    "imageSrc": "history/miledeepworks.png"
+  },
+  {
+    "role": "Full Stack Developer Intern",
+    "organisation": "Capabl Online",
+    "startDate": "June, 2023",
+    "endDate": "July, 2023",
+    "experiences": [
+      "Developed web applications using HTML, CSS, and JavaScript",
+      "Excelled in Python with projects like Hangman and an online bookstore"
+    ],
+    "imageSrc": "history/capablonline.png"
+  }
+]

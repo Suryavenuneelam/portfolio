@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Call Management System",
+    "imageSrc": "projects/cms.png",
+    "description": "Developed a system to manage calls and track incidents using MERN Stack, Twilio, and Google Drive API.",
+    "skills": ["MongoDB", "ExpressJS", "ReactJS", "NodeJS", "Figma"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "AyushOneStopPortal",
+    "imageSrc": "projects/aop.png",
+    "description": "Centralized resources for AYUSH Organization stakeholders, integrating PHP, XAMPP, MySQL, and APIs.",
+    "skills": ["PHP", "XAMPP", "MySQL", "HTML", "CSS", "JavaScript"],
+    "demo": "https://ayushsyncosp.000webhostapp.com/index.php",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Learning Management System",
+    "imageSrc": "projects/lms.png",
+    "description": "Built an exclusive learning management system for organized content delivery using ReactJS, Django, and SQL.",
+    "skills": ["ReactJS", "Django", "SQL", "Figma"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  }
+]
