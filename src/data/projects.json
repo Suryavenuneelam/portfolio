@@ -32,7 +32,7 @@
     "source": "https://github.com/Suryavenuneelam/ArduinoAdvnacedTouchSensor"
   },
   {
-    "title": "Malware Detection and Classification",
+    "title": "Enhancing Malware Detection and Classification with CNN",
     "imageSrc": "projects/mdc.png",
     "description": "Developed a malware detection and classification framework using CNNs, achieving 98% accuracy for cybersecurity applications.",
     "skills": ["TensorFlow", "Pandas", "Keras","NumPy", "Scikit-learn", "Matplotlib"],

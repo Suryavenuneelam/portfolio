@@ -2,6 +2,7 @@ import React from "react";
 
 import styles from "./Hero.module.css";
 import { getImageUrl } from "../../utils";
+import CV from '../../../assets/hero/Neelam-Naga-Saivenkata-Suryavenu-Resume.pdf';
 
 export const Hero = () => {
   return (
@@ -11,12 +12,17 @@ export const Hero = () => {
         <p className={styles.description}>
           I'm a full-stack developer. Reach out if you'd like to collaborate!
         </p>
+        <div>
         <a href="mailto:suryavenunnsv@gmail.com" className={styles.contactBtn}>
           Contact Me
         </a>
+        <a href={CV} download className={styles.contactBtn}>
+          Resume
+        </a>
+        </div>
       </div>
       <img
-        src={getImageUrl("hero/heroImage.png")}
+        src={getImageUrl("hero/profile.png")}
         alt="Hero image of me"
         className={styles.heroImg}
       />

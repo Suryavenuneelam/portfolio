@@ -58,7 +58,23 @@
     align-items: center;
   }
 
+  .text h2 {
+    font-size: 70px;
+    margin-bottom: 5px;
+    /* letter-spacing: 5px; */
+  }
+
+  .text p {
+    margin-left: 5px;
+    font-size: 25px;
+    /* letter-spacing: 1px; */
+  }
+
   .links {
     align-items: center;
+  }
+
+  .link a {
+    font-size: 20px;
   }
 }
