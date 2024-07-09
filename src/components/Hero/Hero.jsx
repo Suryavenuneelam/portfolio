@@ -12,7 +12,7 @@ export const Hero = () => {
         <p className={styles.description}>
           I'm a full-stack developer. Reach out if you'd like to collaborate!
         </p>
-        <div>
+        <div className={styles.buttons}>
         <a href="mailto:suryavenunnsv@gmail.com" className={styles.contactBtn}>
           Contact Me
         </a>

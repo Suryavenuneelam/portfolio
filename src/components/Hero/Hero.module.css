@@ -39,6 +39,11 @@
   margin-bottom: 52px;
 }
 
+.buttons {
+  display: flex;
+  align-items: center;
+}
+
 .contactBtn {
   text-decoration: none;
   background-color: var(--color-primary);
@@ -109,5 +114,21 @@
 
   .content {
     align-items: center;
+  }
+
+  .heroImg {
+    width: 60%;
+    z-index: 1;
+    margin-bottom: 20px;
+  }
+
+  .buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contactBtn {
+    margin-bottom: 20px;
+    margin-right: 0;
   }
 }
