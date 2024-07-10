@@ -14,7 +14,7 @@ export const About = () => {
       </div>
       <div className={styles.content}>
         <img
-          src={getImageUrl("about/formalImage.jpg")}
+          src={getImageUrl("about/aboutme.jpg")}
           alt="Me standing formally"
           className={styles.aboutImage}
         />
