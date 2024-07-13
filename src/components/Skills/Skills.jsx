@@ -28,7 +28,7 @@ function Skills() {
       <hr />
 
       {/* Developer Tools */}
-      <h3 className={styles.skillCategory}>Developer Tools</h3>
+      {/* <h3 className={styles.skillCategory}>Developer Tools</h3>
       <div className={styles.skillList}>
         <SkillList src={checkMarkIcon} skill="Git" />
         <SkillList src={checkMarkIcon} skill="GitHub" />
@@ -41,7 +41,7 @@ function Skills() {
         <SkillList src={checkMarkIcon} skill="IntelliJ" />
         <SkillList src={checkMarkIcon} skill="Eclipse" />
       </div>
-      <hr />
+      <hr /> */}
 
       {/* Databases & Cloud */}
       <h3 className={styles.skillCategory}>Databases & Cloud</h3>
@@ -51,10 +51,10 @@ function Skills() {
         <SkillList src={checkMarkIcon} skill="MongoDB" />
         <SkillList src={checkMarkIcon} skill="PostgreSQL" />
       </div>
-      <hr />
+      {/* <hr /> */}
 
       {/* Other Skills */}
-      <h3 className={styles.skillCategory}>Other Skills</h3>
+      {/* <h3 className={styles.skillCategory}>Other Skills</h3>
       <div className={styles.skillList}>
         <SkillList src={checkMarkIcon} skill="Material-UI" />
         <SkillList src={checkMarkIcon} skill="Bootstrap" />
@@ -63,17 +63,17 @@ function Skills() {
         <SkillList src={checkMarkIcon} skill="Matplotlib" />
         <SkillList src={checkMarkIcon} skill="TensorFlow" />
       </div>
-      <hr />
+      <hr /> */}
 
       {/* Languages */}
-      <h3 className={styles.skillCategory}>Languages</h3>
+      {/* <h3 className={styles.skillCategory}>Languages</h3>
       <div className={styles.skillList}>
         <SkillList src={checkMarkIcon} skill="English" />
         <SkillList src={checkMarkIcon} skill="Hindi" />
         <SkillList src={checkMarkIcon} skill="Telugu" />
         <SkillList src={checkMarkIcon} skill="Tamil" />
         <SkillList src={checkMarkIcon} skill="Sanskrit" />
-      </div>
+      </div> */}
     </section>
   );
 }
