@@ -24,7 +24,7 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Full Stack Developer</h3>
               <p>
-                I developed a Call Management System using the MERN stack and Twilio during my internship at IdeaEdu.
+                I am developing a Call Management System using the MERN stack and Twilio in my internship at IdeaEdu.
               </p>
             </div>
           </li>
