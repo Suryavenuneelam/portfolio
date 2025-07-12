@@ -7,42 +7,55 @@ export const About = () => {
   return (
     <section className={styles.container} id="about">
       <h2 className={styles.title}>About</h2>
+
       <div className={styles.about}>
-              <p>
-                I am a highly motivated B.Tech student in Computer Science and Engineering at Vellore Institute of Technology, Chennai, with a CGPA of 9.06. I have a strong passion for technology and am proficient in programming, data structures, and algorithms. I excel as a team player and possess excellent problem-solving skills. I am seeking opportunities to make a positive impact in the tech industry.
-              </p>
+        <p>
+          I'm a dedicated and curious B.Tech Computer Science and Engineering student at VIT Chennai (CGPA 9.12),
+          currently working full-time as a Software Engineer at Scienaptic Systems after a successful 6-month internship.
+          I enjoy designing end-to-end systems that blend robust backends with intuitive frontends and am passionate about
+          building impactful, user-centric technology products.
+        </p>
       </div>
+
       <div className={styles.content}>
         <img
           src={getImageUrl("about/aboutme.jpg")}
           alt="Me standing formally"
           className={styles.aboutImage}
         />
+
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/website.png")} alt="full stack icon" />
+            <img src={getImageUrl("about/website.png")} alt="Full Stack Icon" />
             <div className={styles.aboutItemText}>
-              <h3>Full Stack Developer</h3>
+              <h3>Software Engineer @ Scienaptic</h3>
               <p>
-                I am developing a Call Management System using the MERN stack and Twilio in my internship at IdeaEdu.
+                Contributing to intelligent credit decisioning systems using Scala and Play Framework. I’ve also built
+                hybrid mobile apps and full-stack systems during my internships at Mile Deep Works and IdeaEdu.
               </p>
             </div>
           </li>
+
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/achievement.png")} alt="academic icon" />
+            <img src={getImageUrl("about/achievement.png")} alt="Academic Icon" />
             <div className={styles.aboutItemText}>
-              <h3>Academic Contributions</h3>
+              <h3>Academics & Credentials</h3>
               <p>
-                I have a publication in SpringerLink's Cluster Computing and a patent for a baby monitoring device.
+                I hold a utility patent for a Baby Monitoring System and have published in Springer’s
+                <i> Cluster Computing </i> journal on IoT data placement optimization. I ranked in the top 1% in Ethical
+                Hacking (NPTEL) and completed certifications in Data Analytics with Python, highlighting my strengths in
+                both security and data science.
               </p>
             </div>
           </li>
+
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/certificate.png")} alt="Certificate icon" />
+            <img src={getImageUrl("about/certificate.png")} alt="Leadership Icon" />
             <div className={styles.aboutItemText}>
-              <h3>Certifications</h3>
+              <h3>Leadership & Community</h3>
               <p>
-                I hold certifications in Data Analytics with Python and Ethical Hacking from NPTEL.
+                Assistant Team Lead at Smart India Hackathon 2023, Core Member of the Sahayatha Club, and former School
+                Pupil Leader — I bring communication, empathy, and coordination into every team I work with.
               </p>
             </div>
           </li>

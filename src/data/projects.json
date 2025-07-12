@@ -1,18 +1,31 @@
 [
   {
+    "title": "Portfolio Website",
+    "imageSrc": "projects/port.png",
+    "description": "Personal portfolio website built using React and Vite showcasing projects, experience, and achievements with a modern, responsive UI.",
+    "skills": ["React", "Vite", "CSS Modules", "Responsive Design"],
+    "demo": "https://suryavenuneelam.github.io/portfolio/",
+    "source": "https://github.com/Suryavenuneelam/portfolio"
+  },
+  {
+    "title": "Aquaculture Management System",
+    "imageSrc": "projects/ams.png",
+    "description": "An IoT-based aquaculture monitoring system using React Native and Flask to track water parameters, feed data to a cloud server, and provide real-time alerts and analytics.",
+    "skills": ["React Native", "Flask", "IoT", "Python", "REST API"],
+    "source": "https://github.com/Suryavenuneelam/IdeaEdu-s-CMS"
+  },
+  {
     "title": "Call Management System",
     "imageSrc": "projects/cms.png",
     "description": "Developed a system to manage calls and track incidents using MERN Stack, Twilio, and Google Drive API.",
     "skills": ["MongoDB", "ExpressJS", "ReactJS", "NodeJS", "Figma"],
-    "demo": "https://www.example.com",
-    "source": "https://github.com/Suryavenuneelam/CMS"
+    "source": "https://github.com/Suryavenuneelam/IdeaEdu-s-CMS"
   },
   {
     "title": "AyushOneStopPortal",
     "imageSrc": "projects/aop.png",
     "description": "Centralized resources for AYUSH Organization stakeholders, integrating PHP, XAMPP, MySQL, and APIs.",
     "skills": ["PHP", "XAMPP", "MySQL", "HTML", "CSS", "JavaScript"],
-    "demo": "https://ayushsyncosp.000webhostapp.com/index.php",
     "source": "https://github.com/Suryavenuneelam/ayushsync"
   },
   {
@@ -20,7 +33,6 @@
     "imageSrc": "projects/lms.png",
     "description": "Built an exclusive learning management system for organized content delivery using ReactJS, Django, and SQL.",
     "skills": ["ReactJS", "Django", "SQL", "Figma"],
-    "demo": "https://www.example.com",
     "source": "https://github.com/Suryavenuneelam/LMS"
   },
   {
@@ -28,7 +40,6 @@
     "imageSrc": "projects/ats.png",
     "description": "Developed a touch sensor using Arduino to detect gestures and multi-finger taps in water.",
     "skills": ["Arduino", "C++", "Sensor Technology"],
-    "demo": "https://www.example.com",
     "source": "https://github.com/Suryavenuneelam/ArduinoAdvnacedTouchSensor"
   },
   {
@@ -36,7 +47,6 @@
     "imageSrc": "projects/mdc.png",
     "description": "Developed a malware detection and classification framework using CNNs, achieving 98% accuracy for cybersecurity applications.",
     "skills": ["TensorFlow", "Pandas", "Keras","NumPy", "Scikit-learn", "Matplotlib"],
-    "demo": "https://www.example.com",
     "source": "https://github.com/Suryavenuneelam/malware-classification-detection"
   },
   {
@@ -44,31 +54,27 @@
     "imageSrc": "projects/dap.png",
     "description": "Created an interactive Amazon sales dashboard using Microsoft PowerBI, providing insightful data visualizations for enhanced decision-making.",
     "skills": ["Microsoft PowerBI"],
-    "demo": "https://www.example.com",
     "source": "https://github.com/Suryavenuneelam/my-powerbi-dashboard"
   },
   {
-      "title": "Network Traffic Analysis and Anomaly Detection for DDOS attack",
-      "imageSrc": "projects/ddos.png",
-      "description": "Developed a system to generate, filter, rate limit, and analyze network traffic using rule-based and machine learning approaches, achieving high accuracy in traffic classification.",
-      "skills": ["Python", "Scikit-learn", "Matplotlib", "NumPy"],
-      "demo": "https://www.example.com",
-      "source": "https://github.com/Suryavenuneelam/ddos"
+    "title": "Network Traffic Analysis and Anomaly Detection for DDOS attack",
+    "imageSrc": "projects/ddos.png",
+    "description": "Developed a system to generate, filter, rate limit, and analyze network traffic using rule-based and machine learning approaches, achieving high accuracy in traffic classification.",
+    "skills": ["Python", "Scikit-learn", "Matplotlib", "NumPy"],
+    "source": "https://github.com/Suryavenuneelam/ddos"
   },
   {
     "title": "Predicting Water Potability using R Studio",
     "imageSrc": "projects/wp.png",
     "description": "Conducted comprehensive data analysis on water potability dataset using R, performing statistical analysis, visualization, and hypothesis testing.",
     "skills": ["R", "readxl", "moments"],
-    "demo": "https://www.example.com",
     "source": "https://github.com/Suryavenuneelam/water-potability-analysis"
   },
   {
-      "title": "Captcha Recognition",
-      "imageSrc": "projects/cr.png",
-      "description": "Developed a system to generate, filter, rate limit, and analyze network traffic using rule-based and machine learning approaches, achieving high accuracy in traffic classification.",
-      "skills": ["Matlab", "Image Processing Toolbox", "Statistics and Machine Learning Toolbox"],
-      "demo": "https://www.example.com",
-      "source": "https://github.com/Suryavenuneelam/captcha-recognition"
+    "title": "Captcha Recognition",
+    "imageSrc": "projects/cr.png",
+    "description": "Developed a system to generate, filter, rate limit, and analyze network traffic using rule-based and machine learning approaches, achieving high accuracy in traffic classification.",
+    "skills": ["Matlab", "Image Processing Toolbox", "Statistics and Machine Learning Toolbox"],
+    "source": "https://github.com/Suryavenuneelam/captcha-recognition"
   }
 ]

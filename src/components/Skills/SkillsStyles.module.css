@@ -1,51 +1,82 @@
 .container {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-  
-    span {
-      display: flex;
-      align-items: center;
-      gap: 5px;
-    }
-  
-    img {
-      width: 20px;
-    }
-  }
-  
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.container span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 6px;
+}
+
+.container img {
+  width: 20px;
+  height: 20px;
+  filter: brightness(0.9);
+}
+
+.skillList {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  flex-wrap: wrap;
+  row-gap: 40px;
+  column-gap: 50px;
+  max-width: 100%;
+  font-size: 15px;
+  color: var(--color-muted);
+  margin-top: 30px;
+  padding: 0 20px;
+}
+
+.skillCategory {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--color-accent);
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+
+.skillList ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skillList li {
+  margin-bottom: 10px;
+  transition: color 0.2s ease;
+}
+
+.skillList li:hover {
+  color: var(--color-text);
+}
+
+hr {
+  width: 100px;
+  height: 2px;
+  border: none;
+  background-color: var(--color-primary);
+  margin: 30px auto;
+  border-radius: 4px;
+  opacity: 0.8;
+  box-shadow: 0 0 8px var(--color-primary);
+}
+
+/* Responsive Adjustments */
+@media screen and (min-width: 800px) {
   .skillList {
-    display: flex;
-    justify-content: space-evenly;
-    align-self: center;
-    flex-wrap: wrap;
-    row-gap: 40px;
-    max-width: 26ch;
-    font-size: 15px;
+    gap: 60px;
   }
 
-  .skillCategory {
-    font-size: 20px;
-    font-weight: 600;
-    margin: 5px 0 5px;
-  }
-  
   hr {
-    width: 100px;
-    height: 1px;
-    border: none;
-    background-color: #fff;
-    margin: 30px auto;
-  }  
-  
-  @media (width >= 800px) {
-    .skillList {
-      max-width: fit-content;
-      gap: 30px;
-    }
-  
-    hr {
-      width: 300px;
-    }
+    width: 300px;
   }
-  
+}

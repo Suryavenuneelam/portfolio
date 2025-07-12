@@ -1,11 +1,94 @@
 :root {
-  /* Colours */
-  --color-text: #fff;
-  --color-primary: #576cbc;
-  --color-secondary: #19376d;
-  --color-dark: #0b2447;
-  --color-bg: #04152d;
+  /* === Colors (Balanced with Your Profile Image) === */
+  --color-text: #f2f2f2;
+  --color-muted: #a3b1c6;
+  --color-primary: #ffc107;            /* Gold - used for buttons, accents */
+  --color-secondary: #2e4374;          /* Navy Blue */
+  --color-dark: #0c111f;               /* Almost Black */
+  --color-bg: #0a1323;                 /* Deep Blue Background */
+  --color-accent: #e8b44c;             /* Subtle Gold Accent */
 
-  /* Fonts */
-  --font-roboto: "Roboto";
+  /* === Fonts === */
+  --font-heading: 'Poppins', sans-serif;
+  --font-body: 'Roboto', sans-serif;
+
+  /* === Spacing & Radius === */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-full: 999px;
+
+  /* === Shadows === */
+  --shadow-soft: 0 4px 12px rgba(0, 0, 0, 0.1);
+  --shadow-medium: 0 8px 24px rgba(0, 0, 0, 0.15);
+  --shadow-heavy: 0 12px 36px rgba(0, 0, 0, 0.25);
+
+  /* === Transitions === */
+  --transition: all 0.3s ease-in-out;
+}
+
+/* === Base === */
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  margin: 0;
+  padding: 0;
+}
+
+/* === Headings === */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  color: var(--color-primary);
+  margin-bottom: 0.5em;
+}
+
+/* === Links === */
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+  transition: var(--transition);
+}
+a:hover {
+  color: var(--color-primary);
+}
+
+/* === Buttons === */
+button {
+  background-color: var(--color-primary);
+  color: #000;
+  border: none;
+  padding: 10px 22px;
+  border-radius: var(--radius-full);
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+  box-shadow: var(--shadow-soft);
+  transition: var(--transition);
+}
+button:hover {
+  background-color: #e0a800;
+  box-shadow: var(--shadow-medium);
+}
+
+/* === Cards / Containers === */
+.card {
+  background-color: var(--color-dark);
+  border: 1px solid var(--color-secondary);
+  padding: 20px;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-medium);
+  color: var(--color-text);
+  margin: 20px 0;
+  transition: var(--transition);
+}
+
+/* === Text Utilities === */
+.text-muted {
+  color: var(--color-muted);
+}
+
+.highlight {
+  color: var(--color-accent);
+  font-weight: 600;
 }

@@ -2,44 +2,72 @@
 
 .container {
   color: var(--color-text);
-  margin-top: 79px;
+  margin-top: 100px;
   margin-left: 10%;
   margin-right: 10%;
 }
 
 .title {
-  color: var(--color-text);
-  font-size: 35px;
+  color: var(--color-accent);
+  font-size: 38px;
   font-weight: 700;
-  letter-spacing: 1.75px;
+  letter-spacing: 2px;
   text-transform: uppercase;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
+  text-align: center;
 }
 
 .content {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin-top: 14px;
+  margin-top: 20px;
 }
 
 .history {
-  width: 75%; /* Full width to align with the skills section */
+  width: 75%;
   display: flex;
   flex-direction: column;
-  gap: 20px; /* Reduced gap for better spacing */
+  gap: 24px;
 }
 
 .historyItem {
+  position: relative;
   display: flex;
-  flex-direction: column; /* Changed to column for better text alignment */
+  flex-direction: column;
   align-items: flex-start;
-  gap: 10px; /* Reduced gap for compactness */
-  background: linear-gradient(90deg, #19376d 0%, rgba(25, 55, 109, 0) 100%);
-  border-radius: 10px;
-  padding: 20px; /* Reduced padding for compactness */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Added subtle shadow */
+  gap: 12px;
+  padding: 24px 28px;
+  padding-left: 32px; /* space for the border stripe */
+  border-radius: 12px;
+  background: linear-gradient(
+    90deg,
+    rgba(87, 108, 188, 0.3) 0%,
+    rgba(25, 55, 109, 0.05) 100%
+  );
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(10px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
 }
+
+/* Accent border on the left */
+.historyItem::before {
+  content: "";
+  position: absolute;
+  top: 16px;
+  bottom: 16px;
+  left: 12px;
+  width: 4px;
+  border-radius: 4px;
+  background: var(--color-accent); /* Use your theme highlight color */
+}
+
+.historyItem:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.4);
+}
+
 
 .historyItemDetails {
   font-family: var(--font-roboto);
@@ -47,39 +75,79 @@
 }
 
 .historyItemDetails h3 {
-  font-size: 25px; /* Reduced font size */
+  font-size: 22px;
   font-weight: 600;
-  margin: 0;
-  color: #ffffff; /* White color for better contrast */
+  margin-bottom: 6px;
+  color: var(--color-text);
 }
 
 .historyItemDetails p {
-  font-size: 18px; /* Reduced font size */
-  font-weight: 400;
-  margin: 5px 0 10px; /* Adjusted margins for spacing */
-  color: #dcdcdc; /* Light grey color */
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--color-muted);
+  background: rgba(255,255,255,0.05);
+  padding: 4px 10px;
+  border-radius: 20px;
+  display: inline-block;
+  width: fit-content;
+  margin-bottom: 6px;
 }
+
 
 .historyItemDetails ul {
-  list-style-position: inside;
-  font-size: 16px; /* Reduced font size */
-  margin-left: 20px; /* Adjusted margin */
-  padding-left: 0;
-  color: #dcdcdc; /* Light grey color */
+  padding-left: 20px;
+  margin: 0;
+  color: var(--color-muted);
+  font-size: 15px;
+  line-height: 1.5;
 }
 
+
 @media screen and (max-width: 830px) {
-  .container{
+  .container {
     margin-top: 0;
   }
+
   .content {
     flex-direction: column;
     align-items: center;
-    gap: 34px;
+    gap: 30px;
   }
 
   .history {
     width: 100%;
     gap: 20px;
   }
+
+  .historyItem {
+    padding: 20px;
+  }
+
+  .historyItemDetails h3 {
+    font-size: 20px;
+  }
+
+  .historyItemDetails p {
+    font-size: 15px;
+  }
+
+  .historyItemDetails ul {
+    font-size: 14px;
+  }
 }
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.historyItem {
+  animation: fadeInUp 0.6s ease both;
+}
+

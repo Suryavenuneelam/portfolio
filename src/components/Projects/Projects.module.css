@@ -5,22 +5,25 @@
   color: var(--color-text);
   margin-left: 10%;
   margin-right: 10%;
+  padding-bottom: 60px;
 }
 
 .title {
-  font-size: 35px;
+  font-size: 36px;
   font-weight: 700;
-  letter-spacing: 1.75px;
+  letter-spacing: 2px;
   text-transform: uppercase;
+  color: var(--color-accent);
+  margin-bottom: 40px;
+  text-align: center;
+  position: relative;
 }
-
+  
 .projects {
-  margin-top: 37px;
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  align-items: stretch; /* Ensure all items stretch to the same height */
+  align-items: stretch;
   justify-content: center;
-  gap: 15px;
-  width: 100%;
+  gap: 26px;
+  padding: 0 10px;
 }

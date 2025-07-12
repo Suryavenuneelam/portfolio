@@ -2,79 +2,94 @@
 
 .container {
   color: var(--color-text);
-  margin-top: 120px;
   background-color: var(--color-secondary);
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  width: 100vw;
-  padding: 58px 10%;
-  gap: 10px;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 60px 10%;
+  margin-top: 120px;
+  width: 100%;
+  gap: 50px;
+  border-top: 2px solid var(--color-primary);
+}
+
+.text {
+  max-width: 520px;
 }
 
 .text h2 {
-  font-size: 80px;
+  font-size: 64px;
   font-weight: 700;
   letter-spacing: 4px;
+  color: var(--color-accent);
+  margin-bottom: 18px;
+  text-transform: uppercase;
 }
 
 .text p {
-  font-size: 40px;
+  font-size: 24px;
   font-weight: 400;
-  letter-spacing: 2px;
+  letter-spacing: 1.2px;
+  color: var(--color-muted);
+  line-height: 1.6;
 }
 
 .links {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  gap: 22px;
   list-style: none;
-  gap: 26px;
+  padding-left: 0;
 }
 
 .link {
   display: flex;
   align-items: center;
-  gap: 25px;
+  gap: 14px;
+  transition: transform 0.3s ease;
+}
+
+.link:hover {
+  transform: translateX(6px);
 }
 
 .link a {
   color: var(--color-text);
   text-decoration: none;
-  font-size: 30px;
-  font-weight: 400;
-  letter-spacing: 1.5px;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  transition: color 0.3s ease;
+}
+
+.link a:hover {
+  color: var(--color-accent);
 }
 
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column;
-    gap: 23px;
-  }
-
-  .text {
-    display: flex;
-    flex-direction: column;
     align-items: center;
+    text-align: center;
+    padding: 40px 5%;
+    gap: 40px;
   }
 
   .text h2 {
-    font-size: 70px;
-    margin-bottom: 5px;
-    /* letter-spacing: 5px; */
+    font-size: 48px;
   }
 
   .text p {
-    margin-left: 5px;
-    font-size: 25px;
-    /* letter-spacing: 1px; */
+    font-size: 18px;
+  }
+
+  .link a {
+    font-size: 18px;
   }
 
   .links {
     align-items: center;
-  }
-
-  .link a {
-    font-size: 20px;
   }
 }
